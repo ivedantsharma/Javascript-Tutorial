@@ -1,0 +1,89 @@
+1)
+use strict keyword
+var const and let keyword to assign values
+trim() , toUpperCase() , toLowerCase() , slice()
+
+2)
+typeof operator and primitive datatypes
+converting number to string and vice versa
+string concatenation and template string
+big int
+truthy anf falsy values
+
+3)
+loops
+array
+push and pop , shift and unshift
+
+4)
+primitive and refrence data types
+clone and concat array by .slice() , [].concat() , [...array1]
+for of loop , for in loop
+array destructing
+
+5)
+objects -> creating objects , accessing objects
+dot vs bracket notations
+object.keys()
+computed properties and spread operator
+
+6)
+object destructing
+object inside array
+nested destructing
+
+7)
+function declaration , function expression , arrow function
+
+8)
+hoisting
+lexical scope , block scope(let and const) vs function scope(var)
+default parameter , rest parameters
+
+9)
+param destructing
+callback function
+function returning function
+
+10)
+forEach() , map() , filter() , reduce() , sort()
+
+11)
+find() , every() , some() , fill() , splice()
+
+12)
+iterables
+Sets and Maps
+array destructing in for of loop
+.keys() method
+clone using Object.assign({},obj)
+optional chaining
+
+13)
+methods
+this keyword
+call, apply and bind
+arrow function and this keyword
+
+14)
+function making
+Object.create(), proto: __proto__
+
+15)
+function as function and object
+.name function
+prototype
+linking function and prototype
+
+16)
+new keyword
+hasOwnProperty, getPrototypeof()
+
+17)
+class
+inheritance , super keyword
+
+18)
+getters and setters
+static methods and properties
+
