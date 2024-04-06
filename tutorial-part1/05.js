@@ -3,10 +3,10 @@
 //arrays are good but not sufficient
 //for real world data
 //objects store key value pairs
-//object don't have inject
+//object don't have index
 
 //how to create objects
-//const person = {name:"Harshit",age:19,};
+//const person = {name:"Harshit",age:19};
 const person = {
     name: "Harshit",
     //we can write key in double quotes also it will not give error
@@ -101,7 +101,7 @@ const obj2 = {
 const newobj = {...obj1,...obj2};
 // const newObject = {..."abcd"};
 const newObject = {...["item1","item2"]};
-// console.log(obj1);
+console.log(obj1);
 console.log(newobj);
 console.log(newObject);
 

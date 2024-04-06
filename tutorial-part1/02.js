@@ -26,12 +26,12 @@ let mystr = "34";
 mystr = +"34";//adding + before a string convert it into a number
 console.log(typeof mystr);
 
-//another method o change string to number and number to string
+//another method to change string to number and number to string
 let age1 = 18;
-age = String(age);
-console.log(typeof age);
-age = Number(age);
-console.log(typeof age);
+age1 = String(age1);
+console.log(typeof age1);
+age1 = Number(age1);
+console.log(typeof age1);
 
 
 //string concatenation
@@ -107,7 +107,7 @@ else console.log(false);
 
 //truthy and falsy values
 
-// falsy values -> if any value is below given value then its a falsy values and rest else is truthy values
+// falsy values -> if any value is below given value then its a falsy values and rest all is truthy values
 // false
 // ""
 // null
@@ -128,10 +128,10 @@ console.log(drink);
 
 let ages3 = 18;
 let Name = "Vedant";
-if(Name[0]==="V" && ages>=18) console.log("baap hu");
-else console.log("baap nhi hu");
-if(Name[1]==="V" || ages>=18) console.log("baap hu");
-else console.log("baap nhi hu");
+if(Name[0]==="V" && ages>=18) console.log("Hiii!");
+else console.log("Byee!");
+if(Name[1]==="V" || ages>=18) console.log("Hiii!");
+else console.log("Byee!");
 
 //nested if
 let winnigNumber = 19;
@@ -151,7 +151,7 @@ else console.log("normal temp");
 //switch statement
 let day=4;
 switch (day) {
-    case 1:
+    case 0:
         console.log("monday");
         break;
     case 1:
