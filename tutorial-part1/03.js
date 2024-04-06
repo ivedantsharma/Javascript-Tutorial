@@ -54,5 +54,3 @@ fruits.shift();
 console.log(fruits);
 console.log(removedFruits);
 //push pop are better then shift and unshift as they are fast
-
-
