@@ -82,8 +82,9 @@ const ans = addTWO(4,8);
 console.log(ans);
 const ans1 = addTWO(10);//it will take value of b as 0
 console.log(ans1);
-//rest parameters
 
+
+//rest parameters
 function myfunct(a,b,...c) {
     console.log(`a is ${a}`);
     console.log(`b is ${b}`);

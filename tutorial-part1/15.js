@@ -53,7 +53,7 @@ console.log(hello.prototype.sing());
 // }
 
 function createUser(firstName, lastName, email, age, address) {
-    // const user = Object.create(userMethods);//we will see this below in this file only
+    // const user = Object.create(userMethods);
     const user = Object.create(createUser.prototype);
     user.firstName = firstName;
     user.lastName = lastName;

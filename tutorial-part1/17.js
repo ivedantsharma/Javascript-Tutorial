@@ -59,6 +59,7 @@ class Animal {
 
 const animal1 = new Animal("tom",2);
 console.log(animal1);
+console.log(Object.getPrototypeOf(animal1));
 console.log(animal1.eat());
 console.log(animal1.isSuperCute());
 

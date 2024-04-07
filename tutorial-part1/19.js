@@ -40,7 +40,7 @@ console.log(myfunction);
 
 
 //let and const hoisted
-//in let and const hoiting happen but the variables are uninitialized
+//in let and const hoiting happens, but the variables are uninitialized
 //you can check by uncomment the next line
 // console.log(firstname);
 let firstname = "Vedant";

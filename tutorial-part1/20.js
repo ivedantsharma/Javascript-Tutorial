@@ -36,6 +36,7 @@ function myfunction(power) {
 }
 
 const square = myfunction(2);
+console.log(square());
 const ans3 = square(3);
 console.log(square);
 console.log(ans3);
