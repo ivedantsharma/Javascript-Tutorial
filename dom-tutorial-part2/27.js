@@ -26,7 +26,7 @@ btn.addEventListener("click", function() {
     console.log("value of this is");
     console.log(this);
 });//in normal function the value of this is button itself
-btn.addEventListener("click", ()=> console.log(this));//in arrow function value of this is window or we can ay its actual value
+btn.addEventListener("click", ()=> console.log(this));//in arrow function value of this is window or we can say its actual value
 
 
 

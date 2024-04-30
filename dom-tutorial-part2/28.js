@@ -26,13 +26,13 @@ console.log(allButtons);
 //     console.log(event);
 // })
 // jab bhi mai kisi bhi element pr event listner ko add krunga
-// js Engine --- line by line execute karta hai
-//  browser --- js Engine + extra features
-//  browser ---- js Engine + webAPI
+// js Engine ---> line by line execute karta hai
+//  browser ---> js Engine + extra features
+//  browser ---> js Engine + webAPI
 
 // jab browser ko pta chla ki user ne event perform kia
 // jo hum listen kar rhe hai
-// browser ------ 2 kaam krega
+// browser ------> 2 kaam krega
 // 1.) callback function js engine ko dega......
 // 2.) callback function ke saath browser jo event hua hai uski information bhi dega
 // ye information hume ek object ke form m milegi

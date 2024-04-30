@@ -45,7 +45,7 @@ console.log(mainHeading1.innerText);
 const Link = document.querySelector("a");
 console.log(Link.getAttribute("href"));//getAttribhute is used to get value of attribhutes
 console.log(Link.getAttribute("href").slice(1));//just to remove # from previous line output
-Link.setAttribute("href", "https://codprog.com");
+Link.setAttribute("href", "https://github.com/ivedantsharma");
 console.log(Link.getAttribute("href"));
 
 const inputElement = document.querySelector(".form-todo input");

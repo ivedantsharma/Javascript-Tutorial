@@ -3,7 +3,7 @@ const todoInput = document.querySelector(".form-todo input[type='text']");
 const todoList = document.querySelector(".todo-list");
 
 todoForm.addEventListener("submit", (e) => {
-  e.preventDefault();//this will help to prevent weboage to refresh when submit happens
+  e.preventDefault();//this will help to prevent webpage to refresh when submit happens
   const newTodoText = todoInput.value;
   // console.log(newTodoText);
   const newLi = document.createElement("li");
