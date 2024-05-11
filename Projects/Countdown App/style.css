@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(64, 230, 14);
+    height: 100vh;
+}
+
+.text-box {
+    color: darkblue;
+    height: 25vh;
+    display: absolute;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.timer-box {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    width: 10vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.days-box, .hours-box, .minutes-box, .seconds-box {
+    background-color: darkblue;
+    height: 20vh;
+    text-align: center;
+    font-size: 180px;
+    color: white;
+    font-weight: bold;
+}
+
+.timer-text {
+    background-color: yellow;
+    height: 5vh;
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.buttons-box {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    margin-bottom: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgb(4, 15, 0);
+    transform: scale(0.9);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: rgb(211, 207, 208);
+    font-size: 20px;
+    font-weight: 600;
+}
